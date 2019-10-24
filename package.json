@@ -5,6 +5,10 @@
   "main": "dist/case-modifier.cjs.js",
   "module": "dist/case-modifier.esm.js",
   "browser": "dist/case-modifier.umd.js",
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
     "test": "jest"
