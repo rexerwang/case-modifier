@@ -1,0 +1,37 @@
+{
+  "name": "case-modifier",
+  "version": "0.1.0",
+  "description": "Convert string to target CaseType, like: camelCase, snakeCase, properCase, constantCase... ",
+  "main": "dist/case-modifier.cjs.js",
+  "module": "dist/case-modifier.esm.js",
+  "browser": "dist/case-modifier.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "keywords": [
+    "case-modifier",
+    "case-convert",
+    "camelCase",
+    "snakeCase",
+    "properCase",
+    "constantCase"
+  ],
+  "author": "rexerwang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rexerwang/case-modifier.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rexerwang/case-modifier/issues"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.6.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "rollup": "^1.25.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
