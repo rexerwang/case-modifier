@@ -1,6 +1,6 @@
 {
   "name": "case-modifier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert string to target CaseType, like: camelCase, snakeCase, properCase, constantCase... ",
   "main": "dist/case-modifier.cjs.js",
   "module": "dist/case-modifier.esm.js",
